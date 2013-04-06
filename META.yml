@@ -1,0 +1,33 @@
+---
+abstract: 'Message-oriented interface to MongoDB'
+author:
+  - 'Dana M. Diederich, C<< <diederich at gmail.com> >>'
+  - 'Dana M. Diederich <diederich@gmail.com>'
+build_requires:
+  ExtUtils::MakeMaker: 6.59
+  MongoDB: 0
+  Test::More: 0
+configure_requires:
+  ExtUtils::MakeMaker: 6.59
+  Module::Install: 0
+distribution_type: module
+dynamic_config: 1
+generated_by: 'Module::Install version 1.06'
+license: artistic2
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Message-MongoDB
+no_index:
+  directory:
+    - inc
+    - t
+requires:
+  MongoDB: 0
+  perl: 5.6.0
+resources:
+  bugtracker: https://github.com/dana/perl-Message-MongoDB/issues
+  homepage: https://metacpan.org/module/Message::MongoDB
+  license: http://www.perlfoundation.org/artistic_license_2_0
+  repository: git://github.com/dana/perl-Message-MongoDB.git
+version: 0.1
