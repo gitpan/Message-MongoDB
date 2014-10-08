@@ -1,5 +1,5 @@
 package Message::MongoDB::Test;
-
+$Message::MongoDB::Test::VERSION = '1.142810';
 use strict;use warnings;
 use MongoDB;
 use Test::More;
